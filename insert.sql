@@ -1,0 +1,60 @@
+insert into singers(alias) values('AC/DC');
+insert into singers(alias) values('Armin van Buren');
+insert into singers(alias) values('Basta');
+insert into singers(alias) values('Eminem');
+insert into singers(alias) values('Madonna');
+insert into singers(alias) values('Metallica');
+insert into singers(alias) values('Robbie Williams');
+insert into singers(alias) values('ZAZ');
+
+insert into songs(song_name, song_time) values('Back in Black', 418);
+insert into songs(song_name, song_time) values('Wallk All Over You', 500);
+insert into songs(song_name, song_time) values('Beautiful Life', 609);
+insert into songs(song_name, song_time) values('Suddenly Summer', 400);
+insert into songs(song_name, song_time) values('My Game', 500);
+insert into songs(song_name, song_time) values('Sansara', 603);
+insert into songs(song_name, song_time) values('Without Me', 500);
+insert into songs(song_name, song_time) values('Lose Yourself', 521);
+insert into songs(song_name, song_time) values('Hollywood', 424);
+insert into songs(song_name, song_time) values('Music', 400);
+insert into songs(song_name, song_time) values('Welcome Home', 600);
+insert into songs(song_name, song_time) values('The Unfogiven', 618);
+insert into songs(song_name, song_time) values('Feel', 400);
+insert into songs(song_name, song_time) values('Angels', 426);
+insert into songs(song_name, song_time) values('Je veux', 400);
+insert into songs(song_name, song_time) values('Si', 300);
+
+insert into albums(album_name, date) values('Iron Man 2', 2010);
+insert into albums(album_name, date) values('Highway to Hell', 1979);
+insert into albums(album_name, date) values('Intense', 2013);
+insert into albums(album_name, date) values('A State of Trance', 2012);
+insert into albums(album_name, date) values('Basta 1', 2006);
+insert into albums(album_name, date) values('Master of Puppets', 1986);
+insert into albums(album_name, date) values('Metallica', 1991);
+insert into albums(album_name, date) values('The Eminem Show', 2002);
+insert into albums(album_name, date) values('Curtain Call: The Hits', 2002);
+insert into albums(album_name, date) values('Escapology', 2002);
+insert into albums(album_name, date) values('Life Thru a Lens', 1997);
+insert into albums(album_name, date) values('American Life', 2003);
+insert into albums(album_name, date) values('Celebration', 2000);
+insert into albums(album_name, date) values('ZAZ', 2010);
+insert into albums(album_name, date) values('Recto verso', 2013);
+
+insert into genres(genre_name) values('Rock');
+insert into genres(genre_name) values('Dance');
+insert into genres(genre_name) values('Rap');
+insert into genres(genre_name) values('Hip-Hop');
+insert into genres(genre_name) values('Pop');
+insert into genres(genre_name) values('Metal');
+
+insert into playlist(pl_name, pl_date) values('pl1', 2020);
+insert into playlist(pl_name, pl_date) values('pl9', 2010);
+insert into playlist(pl_name, pl_date) values('pl2', 2015);
+insert into playlist(pl_name, pl_date) values('pl3', 2017);
+insert into playlist(pl_name, pl_date) values('pl4', 2004);
+insert into playlist(pl_name, pl_date) values('pl5', 2019);
+insert into playlist(pl_name, pl_date) values('pl6', 2012);
+insert into playlist(pl_name, pl_date) values('pl7', 2021);
+insert into playlist(pl_name, pl_date) values('pl8', 2016);
+
+insert into playlist(song_id, pl_name) values (9, 'pl4');
