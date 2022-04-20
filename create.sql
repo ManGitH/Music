@@ -19,8 +19,7 @@ create table if not exists songs(
 	id serial primary key,
 	song_name varchar(80) not null,
 	song_time integer not null,
-	album_id integer references albums(id),
-	son_sing_id integer references singers(id)
+	album_id integer references albums(id)
 );
 
 create table if not exists genres(
