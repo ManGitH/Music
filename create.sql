@@ -51,3 +51,4 @@ create table if not exists plsongs(
 );
 
 alter table playlist drop column song_id;
+alter table songs drop column son_sing_id;
